@@ -1,0 +1,19 @@
+tap "adoptopenjdk/openjdk"
+tap "homebrew/bundle"
+# Emacs dependency management
+brew "cask"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# Distributed revision control system
+brew "git"
+# Mac App Store command-line interface
+brew "mas"
+# Platform built on V8 to build network applications
+brew "node"
+# UI toolkit for building applications for mobile, web and desktop
+cask "flutter"
+mas "Developer", id: 640199958
+mas "Microsoft OneNote", id: 784801555
+mas "Microsoft To Do", id: 1274495053
+mas "Xcode", id: 497799835
+mas "카카오톡", id: 869223134
